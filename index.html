@@ -10,8 +10,23 @@
     <title>App dashboard</title>
     <link rel="stylesheet" href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css">
 </head>
+<style>
+    .page{
+        display: grid;
+        grid-template-columns: 100px auto auto ;
+    }
+    .page > * {
+        padding: 20px;
+    }
+</style>
 <body>
-<button>Submit</button>
+<div class="page">
+<aside> Left Sidbar   </aside>
+<main> Main content</main>
+<aside>Right Sidebar</aside>
+
+</div>
+
     
 </body>
 </html>
