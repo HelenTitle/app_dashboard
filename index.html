@@ -20,14 +20,37 @@
         padding: 20px;
     }
     .location-card{
+        width: 300px;
         background-color: var(--color-blue);
+        padding-inline: 25px;
+        padding-block: 15px;
+        color: white;
+        border-radius: 20px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
+
+    .location-card h3{
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .location-card small{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
 </style>
 <body>
 <div class="page">
 <aside> Left Sidbar   </aside>
 <main> <article class="location-card">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus eius magni quo mollitia vitae dolorem laborum qui placeat quibusdam iure cupiditate ut laudantium enim nulla tempora, odit ex doloremque quia.
+    <svg width="136" height="80" viewBox="0 0 136 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.2" d="M0.308594 80H116.001C127.038 80 135.987 71.0592 136.001 60.025C136.001 60.0167 136.001 60.0083 136.001 60L136.001 0C135.232 11.6667 121.97 35 75.0778 35C28.1855 35 5.69321 65 0.308594 80Z" fill="#006ED3"/>
+        </svg>
+        
+    <h3>French</h3>
+    <small>35 lessons</small>
+   
 </article>
 </main>
 <aside>Right sidbar check</aside>
