@@ -1,3 +1,4 @@
+@import url(components/LocationCard.css);
 html{
     --color-blue: #369FFF;
     --color-dark-blue: #006ED3;
@@ -6,4 +7,13 @@ html{
 
 body{
     font-family: 'Manrope';
+}
+
+
+.page{
+    display: grid;
+    grid-template-columns: 100px auto auto ;
+}
+.page > * {
+    padding: 20px;
 }
